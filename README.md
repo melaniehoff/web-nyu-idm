@@ -1,5 +1,4 @@
-# web-nyu-idm
+# Web Web Web
+### NYU IDM Intro to Web
 
-## This is my code for the class Intro to Web at NYU IDM taught by Melanie Hoff
-
-Today i had soup for breakfast it tasted like bacon but im not sure if it was veggie or not. 
+This is our class code resource
