@@ -1,11 +1,11 @@
 # Web Web Web
 ### NYU IDM Intro to Web
-**Spring 2020 taught by Melanie Hoff**
+**Spring 2020 taught by Melanie Hoff**<br>
 **[Syllabus](https://melaniehoff.github.io/web-nyu-idm/syllabus.html)**
 
 ### 🔮 [Class Page](https://melanie-hoff.com/web)
 
-** 👾Are you looking for example code from class? Check the \_code-examples/ folder**
+**👾Are you looking for example code from class? Check the \_code-examples/ folder**
 
 ### ☎️ About this repo
 
