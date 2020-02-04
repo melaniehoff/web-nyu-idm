@@ -5,7 +5,7 @@
 
 ### 🔮 [Class Page](https://melanie-hoff.com/web)
 
-### 👾Are you looking for example code from class? Check the \_code-examples/ folder
+### 👾 Are you looking for example code from class? Check the \_code-examples/ folder
 
 ### ☎️ About this repo
 
