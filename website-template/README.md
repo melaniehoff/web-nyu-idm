@@ -6,4 +6,5 @@ It includes:
 - a mobile-responsive CSS code block in style.css
 - some resetting CSS
 - Font CSS
-- an xternal images "assets" folder
+- an external images "assets" folder
+- example of using a class selector
