@@ -1,0 +1,565 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Syllabus</title><style>
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	opacity: 0.5;
+}
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, KaiTi, STKaiTi, '华文楷体', KaiTi_GB2312, '楷体_GB2312', serif; }
+.mono { font-family: Nitti, 'Microsoft YaHei', '微软雅黑', monospace; }
+.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .code { font-family: Source Code Pro, 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, KaiTi, STKaiTi, '华文楷体', KaiTi_GB2312, '楷体_GB2312', serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .mono { font-family: PT Mono, Nitti, 'Microsoft YaHei', '微软雅黑', monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.highlight-default {
+}
+.highlight-gray {
+	color: rgb(155,154,151);
+}
+.highlight-brown {
+	color: rgb(100,71,58);
+}
+.highlight-orange {
+	color: rgb(217,115,13);
+}
+.highlight-yellow {
+	color: rgb(223,171,1);
+}
+.highlight-teal {
+	color: rgb(15,123,108);
+}
+.highlight-blue {
+	color: rgb(11,110,153);
+}
+.highlight-purple {
+	color: rgb(105,64,165);
+}
+.highlight-pink {
+	color: rgb(173,26,114);
+}
+.highlight-red {
+	color: rgb(224,62,62);
+}
+.highlight-gray_background {
+	background: rgb(235,236,237);
+}
+.highlight-brown_background {
+	background: rgb(233,229,227);
+}
+.highlight-orange_background {
+	background: rgb(250,235,221);
+}
+.highlight-yellow_background {
+	background: rgb(251,243,219);
+}
+.highlight-teal_background {
+	background: rgb(221,237,234);
+}
+.highlight-blue_background {
+	background: rgb(221,235,241);
+}
+.highlight-purple_background {
+	background: rgb(234,228,242);
+}
+.highlight-pink_background {
+	background: rgb(244,223,235);
+}
+.highlight-red_background {
+	background: rgb(251,228,228);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(55, 53, 47, 0.6);
+	fill: rgba(55, 53, 47, 0.6);
+}
+.block-color-brown {
+	color: rgb(100,71,58);
+	fill: rgb(100,71,58);
+}
+.block-color-orange {
+	color: rgb(217,115,13);
+	fill: rgb(217,115,13);
+}
+.block-color-yellow {
+	color: rgb(223,171,1);
+	fill: rgb(223,171,1);
+}
+.block-color-teal {
+	color: rgb(15,123,108);
+	fill: rgb(15,123,108);
+}
+.block-color-blue {
+	color: rgb(11,110,153);
+	fill: rgb(11,110,153);
+}
+.block-color-purple {
+	color: rgb(105,64,165);
+	fill: rgb(105,64,165);
+}
+.block-color-pink {
+	color: rgb(173,26,114);
+	fill: rgb(173,26,114);
+}
+.block-color-red {
+	color: rgb(224,62,62);
+	fill: rgb(224,62,62);
+}
+.block-color-gray_background {
+	background: rgb(235,236,237);
+}
+.block-color-brown_background {
+	background: rgb(233,229,227);
+}
+.block-color-orange_background {
+	background: rgb(250,235,221);
+}
+.block-color-yellow_background {
+	background: rgb(251,243,219);
+}
+.block-color-teal_background {
+	background: rgb(221,237,234);
+}
+.block-color-blue_background {
+	background: rgb(221,235,241);
+}
+.block-color-purple_background {
+	background: rgb(234,228,242);
+}
+.block-color-pink_background {
+	background: rgb(244,223,235);
+}
+.block-color-red_background {
+	background: rgb(251,228,228);
+}
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="8debda1b-1104-4196-b641-7ababff83d37" class="page sans"><header><h1 class="page-title">Syllabus</h1></header><div class="page-body"><h2 id="d5807020-14fc-407f-8ecd-4fadb949c6f6" class=""><strong>Tandon School of Engineering of New York University</strong></h2><h3 id="25202289-a4ad-4644-8836-b8f8e8ef9613" class=""><strong>Technology, Culture and Society</strong></h3><h3 id="b9fbe7ba-5dbf-45c4-8733-11d64fdec6d7" class=""><strong>Integrated Digital Media</strong></h3><p id="7011c1cb-e844-42be-91f7-49e71427c3fb" class=""><strong>DM-UY 2193 SECTION C Intro to Web Development</strong></p><p id="eed444ff-8c7e-4c23-a1b2-f258f20a3624" class=""><strong>Spring 2020 – Professor Melanie Hoff</strong></p><p id="7ab88631-78c9-410b-92b9-586740bd4944" class=""><strong>Tuesday + Thursday 2:30 - 4:20pm, 370 Jay St.</strong></p><p id="d0c4cb1a-660b-4d46-8464-de51ce509563" class=""><em>To contact professor: </em><a href="mailto:mah845@nyu.edu"><em>mah845@nyu.edu</em></a></p><p id="1658d33e-3eb6-4191-95f5-69f7e5ea52f8" class=""><em>This Syllabus was adapted from </em><a href="https://github.com/er129idm/DM-UY-2193-A"><em>Sarah Dahnke</em></a></p><h2 id="394ca2b0-0e70-43cb-83af-b0c990026055" class="">Class Living Documents</h2><p id="1167fb4e-9abb-4431-b108-5d104fed1468" class=""><a href="https://melanie-hoff.com/web">Class Page</a></p><ul id="1864b2b7-f7c3-4f2e-a8ee-b9bed29db6cd" class="bulleted-list"><li>Notes, weekly exercises, &amp; homework descriptions</li></ul><p id="5ab674d9-5a44-4a82-b309-2caba896408e" class=""><a href="https://docs.google.com/spreadsheets/d/1sWbD9k3vx__3qV1nZgcFgDG7rFl_-najMfKCrHpU-1I/edit#gid=0">Spreadsheet</a></p><ul id="cfa8d765-480d-4b17-88c3-2eb633035956" class="bulleted-list"><li>Homework turn-in and links to all our Github-pages sites</li></ul><p id="1684143b-16ee-4a17-b0fa-f9d6c8aa1d54" class=""><a href="https://github.com/melaniehoff/web-nyu-idm">Class Code Repo</a></p><ul id="4693d147-eeaf-4ab1-8e24-6b8db916fe00" class="bulleted-list"><li>Sample code &amp; examples from class</li></ul><h2 id="10f5dbfb-21f1-4a4b-9b8f-7dfb5ec6eebd" class=""><strong>A note about this syllabus</strong></h2><p id="08f7ee62-e0fe-442c-ad91-68580c577794" class="">This is a living document. There are certain aspects of our course, such as our calendar or grading criteria, that will not differ from this syllabus unless there are extenuating circumstances. However, the pacing of this course may vary depending on student need, comprehension and technologies that are sometimes rapidly changing in the midst of our learning process. I will do everything in my power to update you on any changes ASAP through email and to stay fully transparent about what you are expected to learn, produce, and share. Please engage in open communication, as I will do the same.</p><h2 id="7dfa6ec4-26a9-491e-bada-d011200d60c9" class=""><strong>Course Pre-requisites</strong></h2><p id="b6ca1d4a-cb2d-4418-91ab-59e5e51aecc2" class="">This class assumes no coding experience and simultaneously takes the position that everyone who interacts with computers in some way is <a href="https://gist.github.com/melaniehoff/95ca90df7ca47761dc3d3d58fead22d4">always already a programmer</a>.</p><h2 id="8610f0bf-d2c5-49fe-836c-4fabdbb4b16e" class=""><strong>Course Description</strong></h2><p id="b5d3cc9c-de4f-43cd-a5e4-f38c511dbcc2" class="">In this course, students focus on client-side programming. Assignments are arranged in sequence to enable the production of a website of professional quality in design and production, or push The Web as an abstract medium. This studio stresses interactivity, usability, and the quality and appropriateness of look and feel.</p><p id="8c98d59d-d380-43f1-9aff-aed59d400c25" class="">This course will provide a basic understanding of the methods and techniques of developing a simple to moderately complex web site. Using the current standard web page language, students will be instructed on creating and maintaining a simple web site using HTML5, CSS3, JavaScript and various external libraries.</p><h3 id="be55ba64-af74-4a30-8f25-5b1bcf91b5cb" class=""><strong>Program Learning Objectives</strong></h3><p id="6264ea5e-6dd7-4686-b03f-aad7c6df3828" class=""><strong>Students will:</strong></p><p id="227e9fdb-dafe-41a1-9981-f6dd594918c0" class="">1 – Students will develop conceptual thinking skills to generate ideas and content in order to solve problems or create opportunities. Students will develop a research and studio practice through inquiry and iteration.</p><p id="53d80dff-0ecf-492f-ad71-a1d37cea3457" class="">2 – Students will develop technical skills to realize their ideas. Students will understand and utilize tools and technology, while adapting to constantly changing technological paradigms by learning how to learn. Students will be able to integrate/interface different technologies within a technological ecosystem.</p><p id="e48f5b75-ab2c-4afc-8c31-4beae03467f0" class="">3 – Students will develop critical thinking skills that will allow them to analyze and position their work within cultural, historic, aesthetic, economic, and technological contexts.</p><p id="226a49ea-8b8f-4d8b-b4f5-6df567b9c3a8" class="">4 – Students will gain knowledge of professional practices and organizations by developing their verbal, visual, and written communication for documentation and presentation, exhibition and promotion, networking, and career preparation.</p><p id="2b4a368d-1444-4fc4-a1bd-522d49b77e95" class="">5 – Students will develop collaboration skills to actively and effectively work in a team or group.</p><h3 id="bf109fa0-d72b-4a27-8bf0-1ee649075ec7" class=""><strong>Student Learning Outcomes</strong></h3><p id="9fa876c3-fc9c-4e69-bd26-8aeb454f085a" class="">By the end of the course, students will be able to:</p><p id="3bc2aa50-99f4-4f2a-bf8e-06e54b548b25" class="">1 - Design, build, and develop content for a professional-quality website.</p><p id="9425829d-d429-419b-b66a-f885fb2697a2" class="">2 - Understand and implement the iterative process</p><p id="8ed0f101-1696-4c04-8f55-20a860d8bc47" class="">3 - Learn how to proactively learn, also known as self-regulated learning. In any learning situation, you should study beforehand, make/do, debug, reflect, adjust, and do it all over again (iteration). Learning happens in a cycle.</p><p id="046ef4a2-ea32-4617-b8e0-11838650e755" class="">4 - Create an internal developer / creative community</p><p id="a7abfd44-dcb4-42c7-8a17-90b9a9c651fc" class="">5 - Apply their new technical ability to deconstruct technological systems with the same rigor to deconstructing the social and economic systems that brought them into our day-to-day lives.</p><h3 id="9891d243-9ba2-4ffe-8e69-a1b460385260" class=""><strong>Course Objectives</strong></h3><ul id="7c816e5b-041c-495b-8dc2-f4fcddfcec37" class="bulleted-list"><li><strong>Reintroducing ourselves to our computers &amp; computation</strong><ul id="09c8edaf-7bff-4877-a784-518cb224b7ce" class="bulleted-list"><li>Considering the role of the programmer &amp; the programmed, &amp; disentangling computation from technology</li></ul></li></ul><ul id="d8f5e78f-9e71-42e9-b77b-95c82bfe8652" class="bulleted-list"><li><strong>User Interface (UI) / User Experience (UX)</strong><ul id="482e8595-f354-4ada-bab3-0c0f7fe6c3ad" class="bulleted-list"><li>Stepping into the governing perspective of agency design</li></ul></li></ul><ul id="2279196d-7157-4a2e-8b2e-fb9100e9c6cd" class="bulleted-list"><li><strong>HTML5 / CSS3</strong><ul id="d60ef142-8fad-43e8-bee3-ba3119113c1d" class="bulleted-list"><li>Document structure, style, and shape</li></ul><ul id="9719c23d-dc05-43b3-8565-f8e2c29168da" class="bulleted-list"><li>The Responsive Web (flexible media &amp; media queries)</li></ul></li></ul><ul id="15d25bbc-0914-46be-8023-ddf1519b1c93" class="bulleted-list"><li><strong>Publishing to the web with Github Pages</strong></li></ul><ul id="aaa7c728-7e81-4978-80f1-559cc987fb67" class="bulleted-list"><li><strong>Navigating the Terminal</strong><ul id="6ae17cf7-5756-4489-b853-2a8daf30139e" class="bulleted-list"><li>Writing <a href="https://github.com/melaniehoff/Peer-to-Peer-Folder-Poetry">Folder Poetry</a></li></ul></li></ul><ul id="ae657045-00ed-4592-9b70-c723365c7529" class="bulleted-list"><li><strong>Git</strong><ul id="ff9340d4-42af-43e7-a4d3-a4c01b264938" class="bulleted-list"><li>Version control, collaboration, &amp; open source software culture</li></ul></li></ul><ul id="ff8eff91-4c68-42e6-a5f5-43cfb3c10770" class="bulleted-list"><li><strong>Javascript/Javascript Libraries</strong><ul id="3792502e-2e4e-4347-9ef3-c5c9cda383fa" class="bulleted-list"><li>Experiments in interactivity</li></ul><ul id="30b428b6-b64c-4c55-8f86-1d2a563bdebe" class="bulleted-list"><li>Jquery</li></ul><ul id="780b25f8-5715-4d2c-b1ff-a439c23181a7" class="bulleted-list"><li>Working with Data</li></ul></li></ul><h3 id="05c0012a-62cf-43e6-b998-f9d00f1010e5" class=""><strong>SOFTWARE REQUIREMENTS</strong></h3><ul id="f87f4be0-00f0-461f-85a6-2d454786f466" class="bulleted-list"><li>Browser: Chrome or Firefox</li></ul><ul id="f4f91b07-956d-45b2-9896-f01160af86fb" class="bulleted-list"><li>Github Account: <a href="http://github.com/join">github.com/join</a> (To be done as a class, will coordinate if you already have an account.)</li></ul><ul id="5526e9c9-7144-4c6c-93ee-8b3f25e4e65d" class="bulleted-list"><li>Developer Tools for Chrome or Firefox<ul id="1dab7176-9b5e-4eba-baad-fc0b80514fad" class="bulleted-list"><li>Chrome Developer Tools, <a href="https://developers.google.com/chrome-developer-tools">https://developers.google.com/chrome-developer-tools</a> or<ul id="9cc30614-fe4d-4e29-aa91-2987cd310e9d" class="bulleted-list"><li>Firebug for Firefox, <a href="http://getfirebug.com/">http://getfirebug.com</a></li></ul></li></ul></li></ul><ul id="441344e5-95f8-4baf-87f7-04bd11cf2b77" class="bulleted-list"><li>HTML Text Editor: <a href="http://atom.io/">http://atom.io</a></li></ul><ul id="d4a43a1c-fc1b-485d-80f0-1c4c690b3a92" class="bulleted-list"><li>Web Server Space<ul id="3333d471-0196-4922-af4d-5b3769b11e5f" class="bulleted-list"><li>We will be using Github Pages to host your websites</li></ul></li></ul><h3 id="bc44f747-01d3-4e7f-8019-ea52b8b9b63d" class=""><strong>Course Structure</strong></h3><p id="bf4ce9ba-2d19-4ecc-b5eb-05c5b7b935fd" class="">Class time will be spent as a combination of lecture, review, and in class exercises. Homework will consist of reading or video responses and weekly projects that build on each week’s topics of discussion.</p><h3 id="cc54c0af-fc94-4456-8950-ce5ed6174b79" class=""><strong>Readings</strong></h3><p id="e7bde26d-fa6f-4874-9541-4298da624048" class="">There is no required textbook for this course, however students will be required to complete various online tutorials between classes.</p><p id="de081ffc-04c2-4521-929c-a21a6f501379" class="">We will rely on language and library specific documentation and <a href="https://www.w3schools.com/">https://www.w3schools.com/</a> extensively– one of our goals as a class is to &quot;learn how to learn&quot; by becoming adept at navigating these online resources.</p><h3 id="c03790c5-8bd1-47f7-910c-67c52abce33d" class=""><strong>Laptop Usage During Class</strong></h3><p id="422fe04f-c31f-41f0-b299-8f7a896066e5" class="">I love having WiFi available and I think it is a valuable tool for use in the classroom. Unfortunately, it can very easily be a distraction as well. Laptop use will be expected in class but should be focused on class-specific material, applications, and research. Whenever classmates or guests are presenting please keep your laptop closed. The quality of the class depends in large part on your attention and active participation, so please respect your fellow classmates and close your lid.</p><h2 id="c3cc9014-75e9-4c8e-a975-904329299e71" class=""><strong>Code Plagiarism</strong></h2><p id="b131975a-62f8-4f2a-ba51-3298fa2311b7" class="">It&#x27;s super easy to find code online. As tempting as this is, I am going to ask that you write your own code for the first 2/3 of the semester. This will help you grasp and retain the fundamentals. It does help to write the code from the book out, line by line. Code that is not written by you can not be submitted as a homework assignment, project or pair programming challenge as your own work. Period.</p><p id="c0fdb592-3ef1-48a4-8ac8-bbd51bbae3fa" class="">If you use code from elsewhere (which you will at times), I expect you to cite the work and author, as well as to comment each line, as to what each line does programmatically. Do <em>not</em> summarize several lines of code from a high level. I expect you to comment each line on a granular level. In addition in these cases, I am also looking for significant modification of the code, for you to enact your own ideas and to experiment heavily. Significant modification means beyond variable name and value changes. It&#x27;s bending these concepts to your idea, especially graphically. It&#x27;s not a copy and paste job.</p><p id="92ec2eb6-02e5-45c5-b1a9-32d1c873b9f2" class="">If you use code from online, whether for inspiration, modification or reference, I expect to see a link in your comments from where you got the code and who wrote it. Otherwise it will be considered as plagiarism, and you will fail the assignment. The code must have a reference, along with URL and be commented out LINE BY LINE.</p><p id="d6d5571d-82c7-4e02-842a-9a933a6c9509" class="">Seriously.</p><h2 id="11c8d9dc-5719-40d4-9cf5-77de7b46db1a" class=""><strong>Grading</strong></h2><p id="e2460fa5-3ba7-41bf-8b1d-f5cbe9183e41" class="">NOTE: While you are expected to document and host your work on Github Pages, links to assignments, projects, and documentation will be submitted via our class spreadsheet.</p><p id="529f651f-c2c9-45ab-8beb-ab3407e7f9e9" class="">Grades will be determined according to the following breakdown:</p><p id="46cda727-7305-4db4-8586-7ae64aceb4b4" class=""><strong>Regular Assignments 25%</strong></p><p id="55a6f4ef-22a7-4f3b-a012-89291d14ce0b" class="">We will have weekly assignments that are relevant to material from the previous class. When it is assigned, each assignment will contain a breakdown of the grading criteria. Late assignments will lose a point for each day they are late.</p><p id="4ff4682b-227e-4591-88a0-6dae074de772" class=""><strong>Mid-Term Project 20%</strong></p><p id="e959eb79-6f7a-467d-a859-824ece1e0441" class="">The midterm assignment will be a project that demonstrates a working knowledge of HTML and CSS elements. This project must be completed, published, and presented.</p><p id="e019dc28-5e76-49c9-84eb-cc06e4038362" class=""><strong>Participation and Attendance 20%</strong></p><p id="e546cd34-50f7-46bb-9411-e5883354d572" class="">Attendance is <em>mandatory</em>. Please inform me via email if you are going to miss a class.</p><p id="d438c2cf-22d7-42fb-bec3-815131e7e232" class="">Three arrivals of more than 10 minutes late will count as one absence. After three absences, your fourth absence will lower your final course grade one level. If you miss class, it is your responsibility to catch up on the work by checking the class website and contacting me via email.</p><p id="bc139d51-8fb0-458a-94fc-4d7d857f2f00" class="">This class will be participatory, you are expected to participate in discussions and give feedback to other students both in class and participate with their projects.</p><p id="5eb8f1fa-30ca-4d2e-9302-196ac3da1500" class="">If you need a medical absence excused, you must submit documentation to Deanna Rayment - <a href="mailto:deanna.rayment@nyu.edu">deanna.rayment@nyu.edu</a> - for the absence to be reviewed and considered excused.</p><p id="2c809964-889e-4f16-bbc5-22b60cb6c596" class=""><strong>Final Project 25%</strong></p><p id="095b9987-c484-4a4f-a109-886c95e04a35" class="">Class will culminate with final projects. It is expected that these will be both technology and content driven. The final project will be built over the course of several weeks. This project must be completed, published, and presented.</p><p id="beb0f5dd-a867-451e-9ee2-0c05da500327" class=""><strong>Documentation/Self-Asssessments 10%</strong></p><p id="4ab279b5-967a-4a4d-b055-5c440677e9e3" class="">5% - Students will be expected to document their work on Github and on our class Spreadsheet. This will involve regular publishing of source code and assignments, using comments and README files as necessary. (Github will be a topic we cover in class.)</p><p id="7a18e857-46da-4a04-b921-69be363b064e" class="">5% - Students will perform three self assessments on their work throughout the semester. Specific instructions and deadlines on these assessments will be provided when they are assigned.</p><h2 id="af3882a9-702a-4dbd-90c5-9aad3c1e1e02" class=""><strong>Qualitative Grading Overview</strong></h2><p id="5595dcd4-8a2f-43fd-9aa7-b360632f7e96" class="">Each student will be judged on the quality, experimentation, and improvement that their work shows.</p><h3 id="a8180134-c6d4-4ce3-ade3-8629a73c13d1" class=""><strong>A. Excellent (90-100)</strong></h3><p id="c133c19f-2b52-4da5-81f5-d3a24474f9b6" class="">Performance, participation, and attendance of the student has been of the highest level, showing sustained excellence in meeting course responsibilities. Work clearly differentiates itself from other work, has memorable impact, pursues concepts and techniques above and beyond what is discussed in class. The student thoroughly understands the web design and development process.</p><h3 id="cb908e40-f2cd-44d2-accb-45d682fe8b68" class=""><strong>B. Very Good / Good (80-89)</strong></h3><p id="2350d819-7deb-4ad5-bae6-ae46966f3dac" class="">Performance, participation, and attendance of the student has been good, though not of the highest level. Work demonstrates a better than average web design and development process.</p><h3 id="140f9abc-6715-4f5f-bb76-56c8e9e68e81" class=""><strong>C. Satisfactory (70-79)</strong></h3><p id="544fb64c-b1a5-4838-8dff-5741d2244994" class="">Performance and attendance of the student has been adequate, satisfactorily meeting the course requirements. Work is average and competent, showing a basic understanding of the web design and development process.</p><h3 id="16c04b1d-0c49-4f2e-b5a0-ba38afa5883e" class=""><strong>D. Poor; Below Average (60-69)</strong></h3><p id="425575de-de9b-4b43-a85b-0b711d58ed42" class="">Performance and attendance of the student has been less than adequate. Work is lacking in many or most areas that show any understanding of visual foundation. Problems may include lack of interest, procrastination, poor planning and poor craft.</p><h3 id="384dc1b7-84ad-46d0-bfc3-a611294511dd" class=""><strong>F. Unacceptable (59 &amp; Below)</strong></h3><p id="8a281b32-215d-4723-993d-e8c4daf74e1b" class="">Performance and attendance of the student has been such that course requirements have not been met. Work shows no overall understanding of the course material on many levels or either a severe lack of interest.</p><h2 id="6b4449da-f7a5-490c-a30c-305b238f015d" class=""><strong>Accommodations</strong></h2><p id="ae155b71-f20b-45b1-b8c6-d9c6a0a9b203" class="">If you are student with a disability who is requesting accommodations, please contact New York University’s Moses Center for Students with Disabilities at 1-212-998-4980 or <a href="mailto:mosescsd@nyu.edu">mosescsd@nyu.edu</a>. You must be registered with CSD to receive accommodations. Information about the Moses Center can be found <a href="http://atwww.nyu.edu/csd">atwww.nyu.edu/csd</a>. The Moses Center is located at 726 Broadway on the 2nd floor.</p><h2 id="6be3e133-5670-4503-bf28-e9249d0fbdf9" class=""><strong>Notable Dates</strong></h2><p id="91c1fd0c-b370-4951-a9bd-b0be9498f813" class="">You can find the official academic calendar <a href="https://www.nyu.edu/registrar/calendars/university-academic-calendar.html#1184">here</a></p></div></article></body></html>
