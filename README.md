@@ -4,6 +4,8 @@
 
 ### [Class Page](https://melanie-hoff.com/web)
 
+**Are you looking for example code from class? Check the \_code-examples/ folder**
+
 ### About this repo
 
 - This is the class code repository for Intro to Web at NYU IDM taught by Melanie Hoff in Spring 2020
