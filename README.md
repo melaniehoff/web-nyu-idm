@@ -2,7 +2,7 @@
 ### NYU IDM Intro to Web
 **Spring 2020 taught by Melanie Hoff**
 
-[Class Page](https://melanie-hoff.com/web)
+### [Class Page](https://melanie-hoff.com/web)
 
 ### About this repo
 
