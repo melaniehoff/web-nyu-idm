@@ -90,6 +90,7 @@ body {
   left: 10px;
   bottom: 60px;
   width: 260px;
+  pointer-events: none;
 }
 
 #logo-touch {
@@ -100,17 +101,10 @@ body {
   margin-left: -80px;
   width: 160px;
   margin: left:10%;
+  pointer-events: none;
+  background: url('assets/logo.png');
 }
 
-#binder-clip {
-  margin-top: -38px;
-  position: fixed;
-  margin-left: 80px;
-  z-index: 20;
-  -ms-transform: rotate(-27deg);
-  -webkit-transform: rotate(-27deg);
-  transform: rotate(-27deg);
-}
 
 #navigation {
   margin: 0;
