@@ -150,17 +150,16 @@ This class will be participatory, you are expected to participate in discussions
 
 If you need a medical absence excused, you must submit documentation to Deanna Rayment - [deanna.rayment@nyu.edu](mailto:deanna.rayment@nyu.edu) - for the absence to be reviewed and considered excused.
 
-**Final Project 20%**
+**Final Project 25%**
 
 Class will culminate with final projects. It is expected that these will be both technology and content driven. The final project will be built over the course of several weeks. This project must be completed, published, and presented.
 
-**Documentation/Self-Asssessments/Tickets to Leave 15%**
+**Documentation/Self-Asssessments 10%**
 
 5% - Students will be expected to document their work on Github. This will involve regular publishing of source code and assignments, using comments and README files as necessary. (Github will be a topic we cover in class.)
 
-5% - At the end of each session, students will need to submit a Ticket to Leave. Please view the Ticket to Leave file in this repo for specific instructions.
-
 5% - Students will perform three self assessments on their work throughout the semester. Specific instructions and deadlines on these assessments will be provided when they are assigned.
+
 
 ## **Qualitative Grading Overview**
 
@@ -193,15 +192,3 @@ If you are student with a disability who is requesting accommodations, please co
 ## **Notable Dates**
 
 You can find the official academic calendar [here](https://www.nyu.edu/registrar/calendars/university-academic-calendar.html#1184)
-
-**Monday, September 16, 2019** - Last day to drop a class and receive a refund of 100% of tuition & fees for Undergraduate, Graduate and Diploma students who are dropping classes, but will remain enrolled in at least one course. For Undergraduate, Graduate and Diploma students who 'Completely Withdraw' from ALL courses during the semester, please see the Refund Schedule for Complete Withdrawal. Last day to drop Spring 2019 classes and not receive a grade of 'W.' Last day of active waitlists. Last day to add/drop on Albert.
-
-**Monday, October 14, 2019** - Fall Recess (aka No class)
-
-**Tuesday, October 15, 2019** - Legislative Day - Classes will meet according to a Monday schedule. (aka Come to class)
-
-**Monday, November 4, 2019** - Last day to use the Term Withdrawal Form to submit a spring semester term withdrawal request or submit a request to withdraw from a course. Students should consult the academic calendar of their home school for specific deadlines pertaining to course withdrawal for the term
-
-**Wednesday, November 27, 2019 - Friday, November 29, 2019** - Student Thanksgiving Recess
-
-**Friday, December 13, 2019** - Last day of Fall 2019 Classes
