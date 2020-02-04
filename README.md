@@ -6,5 +6,5 @@
 
 ### About this repo
 
-This is the class code repository for Intro to Web at NYU IDM taught by Melanie Hoff in Spring 2020
-This repo also includes the code for our class page and was made using [Clement Valla's Binder](https://www.are.na/block/6076295)
+- This is the class code repository for Intro to Web at NYU IDM taught by Melanie Hoff in Spring 2020
+- This repo also includes the code for our class page and was made using [Clement Valla's Binder](https://www.are.na/block/6076295)
