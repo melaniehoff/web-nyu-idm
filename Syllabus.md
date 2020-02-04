@@ -156,7 +156,7 @@ Class will culminate with final projects. It is expected that these will be both
 
 **Documentation/Self-Asssessments 10%**
 
-5% - Students will be expected to document their work on Github. This will involve regular publishing of source code and assignments, using comments and README files as necessary. (Github will be a topic we cover in class.)
+5% - Students will be expected to document their work on Github and on our class Spreadsheet. This will involve regular publishing of source code and assignments, using comments and README files as necessary. (Github will be a topic we cover in class.)
 
 5% - Students will perform three self assessments on their work throughout the semester. Specific instructions and deadlines on these assessments will be provided when they are assigned.
 
