@@ -1,6 +1,6 @@
 # World Wide Water
 ### NYU IDM Intro to Web
-**⌇ Spring 2020 taught by [Melanie Hoff](https://melanie-hoff.com/**<br>
+**⌇ Spring 2020 taught by [Melanie Hoff](https://melanie-hoff.com/)**<br>
 **⌇ [Syllabus](https://melaniehoff.github.io/web-nyu-idm/syllabus.html)**
 
 ### 🔮 [Class Page](https://melanie-hoff.com/web)
