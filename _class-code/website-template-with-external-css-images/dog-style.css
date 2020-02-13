@@ -12,10 +12,10 @@ body {
 /* THE END of default helpful basic CSS to include. EDIT the stuff BELOW this line*/
 
 @font-face {
-  font-family: 'violet';
+  /* font-family: 'violet';
   src: url('./fonts/VioletSans-Regular.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
+  font-style: normal; */
 }
 
 body {
@@ -23,6 +23,7 @@ body {
   color: yellow;
   text-align: center;
   font-size: 2em;
+  font-family: 'Modak', cursive;
 }
 
 .my-fun-class {
