@@ -33,6 +33,10 @@ body {
   margin: auto;
 }
 
+#my-fun-id {
+  font-size: 3em;
+}
+
 img {
   width: 40%;
   padding: 2em;
