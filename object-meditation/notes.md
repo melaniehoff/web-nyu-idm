@@ -1,5 +1,4 @@
 # Object Meditation
-## A Banana from the Bodega I go to Every Day
 
 ### What are 5 words that come to mind when thinking about this object?
 
