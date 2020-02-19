@@ -1,4 +1,4 @@
-# Object Meditation: My favorite Pair of Pants
+# Object Meditation: a Banana from the Bodega I go to Every Day
 
 ### What are 5 words that come to mind when I think of this Object
 
