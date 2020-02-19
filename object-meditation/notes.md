@@ -1,8 +1,6 @@
 # Object Meditation: My favorite Pair of Pants
 
 ### What are 5 words that come to mind when I think of this Object
-- this how you make bullets
--
 
 ### Are there spatial places this object is associated with?
 
