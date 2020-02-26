@@ -10,4 +10,4 @@
 ### ☎️ About this repo
 
 - This is the class code repository for Intro to Web at NYU IDM taught by Melanie Hoff in Spring 2020
-- This repo also includes the code for our class page and was made using [Clement Valla's Binder](https://github.com/clementvalla/binder)
+- This repo also includes the code for our class page and was made using [Clement Valla's Binder](https://github.com/clementvalla/binder) - Thank you to [Nahee Kim](https://nahee.app/) who told me about Binder!
