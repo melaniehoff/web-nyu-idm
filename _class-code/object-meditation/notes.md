@@ -37,5 +37,5 @@ We will create websites that draw from our responses to the Object Meditation Qu
 Your website is not a literal representation of your object but is evocative of the emotions, textures, histories, or other qualities of your object. 
 your object meditation website will have multiple sections or viewa and tell a story or be an expression of poetry. 
 
-Suggested Reading [
+Suggested Reading: [
 My website is a shifting house next to a river of knowledge ...](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)
