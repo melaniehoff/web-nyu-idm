@@ -31,8 +31,11 @@ By Melanie Hoff for [Intro to Web NYU IDM Spring 2020](https://docs.google.com/d
 
 
 
-
+# 
 
 We will create websites that draw from our responses to the Object Meditation Questions.
 Your website is not a literal representation of your object but is evocative of the emotions, textures, histories, or other qualities of your object. 
 your object meditation website will have multiple sections or viewa and tell a story or be an expression of poetry. 
+
+Suggested Reading [
+My website is a shifting house next to a river of knowledge ...](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)
